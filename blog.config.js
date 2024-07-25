@@ -1,10 +1,10 @@
 const BLOG = {
-  title: '狗皮膏药',
-  author: 'molight',
+  title: 'Notionic',
+  author: '左蓝',
   email: 'i@zuolan.me',
-  link: 'https://notionic-steel-pi.vercel.app',
+  link: 'https://zuolan.me',
   newsletter: 'Notionic Weekly',
-  description: '一剂膏药，治愈理想',
+  description: 'A static blog build on top of Notion and Next.js',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -67,10 +67,10 @@ const BLOG = {
   },
   comment: {
     // support provider: utterances, supacomments
-    provider: 'supacomments', // leave it empty if you don't need any comment plugin
+    provider: '', // leave it empty if you don't need any comment plugin
     supaCommentsConfig: {
-      supabaseUrl: 'https://atoudkjlwiybneytbrtw.supabase.co', // The url of your Supabase instance
-      supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF0b3Vka2psd2l5Ym5leXRicnR3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjE4OTgzMzUsImV4cCI6MjAzNzQ3NDMzNX0.rmFETH-FP2guwDZ6oKGuZ8HUm31bAgsuwhcNTfHXWPs' // The anonymous key of your Supabase instance
+      supabaseUrl: '', // The url of your Supabase instance
+      supabaseAnonKey: '' // The anonymous key of your Supabase instance
     },
     utterancesConfig: {
       repo: ''
